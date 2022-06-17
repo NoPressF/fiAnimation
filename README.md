@@ -1,10 +1,13 @@
 # fiAnimation
-With this script you will be able to work with the OnPlayerFinishAnimation event
 
-Example:
+# With this script you will be able to work with the OnPlayerFinishAnimation event
+
+# Example:
+```pawn
 ApplyAnimation(playerid, "BOMBER", "BOM_PLANT_CROUCH_IN", 4.1, false, false, false, false, 0, true, /*This parameter You must set this parameter to a boolean value true = the function works, false = no. Default false.*/);
 
-
+```
+```pawn
 public OnPlayerFinishAnimation(playerid, animationid, finishedMilseconds)
 {
     // Animationid - return value a played animation.
@@ -17,3 +20,4 @@ public OnPlayerFinishAnimation(playerid, animationid, finishedMilseconds)
     }
     return true;
 }
+```
