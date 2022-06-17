@@ -1,6 +1,5 @@
 # fiAnimation
-
-# With this script you will be able to work with the OnPlayerFinishAnimation event
+With this script you will be able to work with the OnPlayerFinishAnimation event
 
 # Example:
 ```pawn
