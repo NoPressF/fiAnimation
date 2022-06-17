@@ -2,7 +2,8 @@
 With this script you will be able to work with the OnPlayerFinishAnimation event
 
 Example:
-ApplyAnimation(playerid, "BOMBER", "BOM_PLANT_CROUCH_IN", 4.1, false, false, false, false, 0, true, /*This parameter You must set this parameter to a boolean value true = the function works, false = no.*/);
+ApplyAnimation(playerid, "BOMBER", "BOM_PLANT_CROUCH_IN", 4.1, false, false, false, false, 0, true, /*This parameter You must set this parameter to a boolean value true = the function works, false = no. Default false.*/);
+
 
 public OnPlayerFinishAnimation(playerid, animationid, finishedMilseconds)
 {
