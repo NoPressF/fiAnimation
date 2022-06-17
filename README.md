@@ -9,8 +9,8 @@ ApplyAnimation(playerid, "BOMBER", "BOM_PLANT_CROUCH_IN", 4.1, false, false, fal
 ```pawn
 public OnPlayerFinishAnimation(playerid, animationid, finishedMilseconds)
 {
-    // Animationid - return value a played animation.
-    // finishedMilseconds - return value a how long the animation has been completed in milliseconds since it started.
+    // Animationid - get value a played id animation.
+    // finishedMilseconds - get value a how long the animation has been completed in milliseconds since it started.
     // Example:
     if(animationid == 165)
     {
